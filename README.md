@@ -3,11 +3,6 @@ This is a project that enables encryption based on deniability along with confid
 ```
 Works with OpenSSL Libraries in C++
 ```
-# Created By:
-Thomas Alexander Sellie-Lund
-Nikhil Reddy
-Abhishek Ramchandran
-
 # Process
 Encryption: File -> Split into chunks -> Mixed with garbage -> Garbage is systematically encrypted (taking into account the user's data and password) -> Hashes concatenated -> Ciphertext created.
 
